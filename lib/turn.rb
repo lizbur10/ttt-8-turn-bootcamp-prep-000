@@ -16,6 +16,7 @@ def position_taken?(board, index)
     true
   else
     false
+  end
 end
 
 def move(board, index, token = "X")
