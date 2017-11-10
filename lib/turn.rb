@@ -7,12 +7,15 @@ def display_board(board)
 
 end
 
-def valid_move(board, index)
-
+def valid_move?(board, index)
+  
 end
 
-def position_taken(board, index)
-
+def position_taken?(board, index)
+  if board[index] = "X" || board[index] = "O"
+    true
+  else
+    false
 end
 
 def move(board, index, token = "X")
